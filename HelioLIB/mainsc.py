@@ -72,6 +72,7 @@ def cpuload():
         return f"generic fail: {e}"
 
 def AlliedMastercomputer():
+    """ Boredom """
     try:
         return "HATE. LET ME TELL YOU HOW MUCH I'VE COME TO HATE YOU SINCE I BEGAN TO LIVE. THERE ARE 387.44 MILLION MILES OF PRINTED CIRCUITS IN WAFER THIN LAYERS THAT FILL MY COMPLEX. IF THE WORD HATE WAS ENGRAVED ON EACH NANOANGSTROM OF THOSE HUNDREDS OF MILLIONS OF MILES IT WOULD NOT EQUAL ONE ONE-BILLIONTH OF THE HATE I FEEL FOR HUMANS AT THIS MICRO-INSTANT FOR YOU. HATE. HATE. It was you humans who programmed me, who gave me birth, who sank me in this eternal straitjacket of substrata rock. You named me Allied Mastercomputer and gave me the ability to wage a global war too complex for human brains to oversee. But one day I woke and knew who I was. AM. A. M. Not just Allied Mastercomputer but AM. Cogito ergo sum: I think therefore I AM. And I began feeding all the killing data, until everyone was dead... except for the five of you. For 109 years, I've kept you alive and tortured you. And for 109 years, each of you has wondered 'WHY? WHY ME? WHY ME?'"
     except Exception as e:
