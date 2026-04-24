@@ -18,7 +18,9 @@ def UACreq():
             ctypes.windll.shell32.ShellExecuteW(None, "runas", sys.executable, f'"{script}" {params}', None, 1)
             sys.exit()
         except:
-            return "fail"
+            return "generic fail"
+    except:
+        return "generic fail, maybe user pressed no"
     return "success"
         
 def warning(body, title):
